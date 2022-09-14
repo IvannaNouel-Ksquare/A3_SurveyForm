@@ -1,0 +1,62 @@
+html, body {
+    font-family: Arial;
+    height: 80%;
+    width: 75%;
+    padding: 0px 100px 100px 160px ;
+
+  }
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
+  
+div {
+    text-align: justify;
+    background-color: #FFFFFF;
+    padding: 40px 100px 40px 100px;
+}
+.logo {
+    text-align: center;
+    background-color: #FFFFFF;
+    padding: 40px 100px 40px 100px;
+}
+.position {
+    text-align: center;
+    font-weight: bold;
+    background-color: #db4852;
+    padding: 10px 5px;
+
+}
+.info {
+    text-align: justify;
+    color: #313336;
+    background-color: #db4852;
+    padding: 5px 40px 30px 40px;
+
+}
+input[type=text], [type=email], [type=select], textarea {
+    width: 100%;
+    padding: 10px 5px;
+    margin: 8px 0;
+    border: 1px solid #db4852;
+  }
+
+input[type=number] {
+    width: 6%;
+    padding: 5px 5px;
+    margin: 4px 0;
+    border: 1px solid #db4852;
+  }
+
+  input[type=submit] {
+    width: 30%;
+    padding: 5px 5px;
+    margin: 4px 0;
+    border: 1px solid #db4852;
+    background-color: #db4852;
+  }
+
+
+  
+ 
+

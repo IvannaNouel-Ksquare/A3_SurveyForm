@@ -1,12 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Survey Form</title>
 </head>
-<body>
-    
+<link rel="stylesheet" href="style.css">
+
+<body bgcolor=#e8e1c8>
+
+    <div id="logo" class="logo">
+
+        <img src="itk.png" alt="Logo ksquare" width="450" height="210">
+
+    </div>
+
+    <div id="position" class="position">
+        <p>
+            Software Engineering Specialization
+            <hr>
+
+        </p>
+    </div>
+    <div id="info" class="info">
+        <p> The ITK Software Engineering Specialization (RVOE Acuerdo 195, 13 de mayo 2021) is a 1-year online program
+            organized across three quarters.
+            <br><br>
+            ITK’s educational offer will help students gain the technical, language, and soft skills a Software Engineer
+            requires to start a career in the field.
+            <br><br>
+            Our pedagogical approach provides students exposure to real-world environment projects, fosters connections
+            with industry experts, and creates the pathway to landing a job as Engineer I at the Ksquare Group.
+        </p>
+    </div>
+    <div class="container">
+
+        <form>
+            <!-- First Name -->
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" placeholder="Name"><br>
+            <br>
+
+            <!-- Last Name -->
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" placeholder="Last name"><br>
+            <br>
+
+            <!-- Email -->
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Email"><br>
+            <br>
+
+            <!-- Age -->
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" min="17" max="50"><br>
+            <br>
+
+            <!-- Country -->
+            <label for="country">Country: </label>
+            <select type="select" id="country" name="country">
+                <option value="Mexico">Mexico</option>
+                <option value="Dominican Republic">Dominican Republic</option>
+                <option value="USA">USA</option>
+            </select>
+            <br><br>
+
+
+            <!-- Gender -->
+            <!-- Same "name" to be treated as a group -->
+            <label for="gender">Gender: </label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <br>
+
+            <!-- Comment section -->
+            <label for="comments">Comments: </label><br>
+            <textarea name="comments" id="comments" placeholder="Type here..."></textarea>
+            <br>
+
+            <!-- checkbox -->
+            <!-- value used for gruop checks -->
+            <label for="checkbox"> Check if you will like to recieve more surveys</label>
+            <input type="checkbox" name="checkbox" value="checkbox" id="checkbox">
+            <br> <br>
+
+
+            <!-- submit -->
+            <center>
+            <input type="submit" value="Submit">
+            <br> <br>
+            </center>
+
+        </form>
+
+        <hr>
+        <footer>
+            <center>
+                <p>Author: Ivanna Nouel</p>
+                <p><a href="mailto:hege@example.com">Ivanna.Nouel@itksquare.edu.mx</a></p>
+            </center>
+        </footer>
+
+    </div>
 </body>
+
 </html>
